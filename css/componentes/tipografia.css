@@ -1,0 +1,59 @@
+.font-1-xl {
+  font-family: "Poppins", sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.font-1-x {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.font-1-m {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.font-1-p-m,
+.font-1-p-l {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.015em;
+}
+
+.font-1-p-l {
+  font-weight: 300;
+}
+
+.font-2-xl {
+  font-family: "Syne", Helvetica, sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.font-2-x {
+  font-family: "Syne", Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.font-2-m {
+  font-family: "Syne", Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.font-2-p {
+  font-family: "Syne", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.font-3-m {
+  font-family: "Merryweather", serif;
+  font-size: 30px;
+  font-weight: bold;
+}
