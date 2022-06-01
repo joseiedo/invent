@@ -152,6 +152,7 @@ header {
 @media (max-width: 900px) {
   .beneficios {
     grid-template-columns: 1fr;
+    gap: 50px;
     justify-items: center;
   }
 

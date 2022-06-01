@@ -57,3 +57,13 @@
   font-size: 30px;
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .font-1-xl {
+    font-size: 48px;
+  }
+
+  .font-1-x {
+    font-size: 36px;
+  }
+}
