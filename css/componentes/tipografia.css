@@ -39,6 +39,12 @@
   font-weight: 500;
 }
 
+.font-1-pp-l {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 .font-2-xl {
   font-family: "Syne", Helvetica, sans-serif;
   font-size: 72px;
