@@ -228,7 +228,13 @@ header {
 
 @media (max-width: 600px) {
   .sobre h2 {
-    font-size: 48px;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sobre h2 {
+    font-size: 24px;
   }
 }
 
@@ -366,6 +372,10 @@ header {
 .footer {
   display: grid;
   grid-template-columns: 6fr 4fr 4fr;
+}
+
+.footer a:hover {
+  filter: brightness(1.2);
 }
 
 @media (max-width: 700px) {

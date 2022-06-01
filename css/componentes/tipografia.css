@@ -81,10 +81,22 @@
 
 @media (max-width: 600px) {
   .font-1-xl {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .font-1-x {
     font-size: 36px;
+  }
+
+  .font-3-m {
+    font-size: 20px;
+  }
+
+  .font-2-x-b {
+    font-size: 36px;
+  }
+
+  .font-1-m {
+    font-size: 24px;
   }
 }
