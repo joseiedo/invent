@@ -3,6 +3,7 @@ html,
 body,
 h1,
 h2,
+h3,
 p {
   margin: 0;
 }
@@ -82,6 +83,7 @@ header {
 }
 
 .banner {
+  padding-top: 50px;
   display: flex;
   gap: 30px;
 }
@@ -102,8 +104,8 @@ header {
 }
 
 .beneficios-bg {
-  height: 2400px;
   background: var(--cor-6);
+  padding-bottom: 100px;
 }
 
 .beneficios-conteudo ul {
@@ -150,6 +152,9 @@ header {
 }
 
 @media (max-width: 900px) {
+  .banner {
+    padding-top: 20px;
+  }
   .beneficios {
     grid-template-columns: 1fr;
     gap: 50px;
@@ -164,3 +169,180 @@ header {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 600px) {
+  .header {
+    padding-bottom: 8px;
+    justify-content: center;
+  }
+}
+
+/* Modelos de mochila */
+
+.modelos-bg {
+  background: var(--cor-6);
+  display: flex;
+  justify-content: center;
+}
+
+.modelos h2 {
+  padding: 18px;
+}
+
+.modelos-lista {
+  max-width: 1400px;
+  display: flex;
+  gap: 100px;
+}
+
+.modelos-lista li {
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.modelos-lista li img {
+  margin: 0 auto;
+}
+
+.modelos-lista p {
+  max-width: 25ch;
+}
+
+.modelos-lista li:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 900px) {
+  .modelos-lista {
+    flex-direction: column;
+  }
+}
+
+/* sobre */
+
+.sobre-bg {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: var(--cor-6);
+}
+
+@media (max-width: 600px) {
+  .sobre h2 {
+    font-size: 48px;
+  }
+}
+
+/* depoimento */
+.depoimento-bg {
+  box-shadow: inset 0px 50px 0 0 var(--cor-6);
+  background: var(--cor-4);
+}
+.depoimento {
+  display: flex;
+  justify-content: center;
+}
+
+.depoimento img {
+  object-fit: cover;
+}
+
+.depoimento-conteudo {
+  padding: 80px;
+  max-width: 55ch;
+  align-self: flex-end;
+}
+
+@media (max-width: 1200px) {
+  .depoimento {
+    flex-direction: column;
+  }
+
+  .depoimento-conteudo {
+    font-size: 30px;
+    max-width: 100ch;
+    align-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .depoimento-conteudo {
+    padding: 20px;
+  }
+}
+
+/* form */
+
+.form-bg {
+  padding-bottom: 120px;
+  background: var(--cor-2);
+}
+.form {
+  padding-top: 80px;
+}
+
+.form h2,
+.form span {
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+
+.form span {
+  margin-bottom: 20px;
+}
+
+.formulario {
+  padding: 50px;
+  display: grid;
+  gap: 10px 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col-2 {
+  grid-column: 1/-1;
+}
+
+.formulario label {
+  display: block;
+}
+.formulario input {
+  font-family: "Poppins";
+  width: 100%;
+  background: var(--cor-6);
+  color: var(--cor-1);
+  border-radius: 4px;
+  font-size: 30px;
+  height: 50px;
+}
+
+.formulario textarea {
+  font-family: "Poppins";
+  width: 100%;
+  background: var(--cor-6);
+  color: var(--cor-1);
+  border-radius: 4px;
+  font-size: 30px;
+}
+
+.formulario button {
+  grid-column: 1/-1;
+  width: 300px;
+  margin-top: 30px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  color: var(--cor-6);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  background: var(--cor-4);
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+/* footer */

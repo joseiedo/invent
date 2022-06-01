@@ -16,6 +16,11 @@
   font-weight: 400;
 }
 
+.font-1-p-b {
+  font-weight: 600;
+}
+
+.font-1-p-b,
 .font-1-p-m,
 .font-1-p-l {
   font-family: "Poppins", sans-serif;
@@ -28,16 +33,26 @@
   font-weight: 300;
 }
 
+.font-1-pp {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .font-2-xl {
   font-family: "Syne", Helvetica, sans-serif;
   font-size: 72px;
   font-weight: 700;
 }
 
-.font-2-x {
+.font-2-x-b {
   font-family: "Syne", Helvetica, sans-serif;
   font-size: 60px;
   font-weight: 500;
+}
+
+.font-2-x-b {
+  font-weight: 700;
 }
 
 .font-2-m {
@@ -53,9 +68,9 @@
 }
 
 .font-3-m {
-  font-family: "Merryweather", serif;
+  font-family: "Merriweather", serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 @media (max-width: 600px) {
