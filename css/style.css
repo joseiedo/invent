@@ -292,7 +292,7 @@ header {
 }
 
 .formulario {
-  padding: 50px;
+  box-sizing: border-box;
   display: grid;
   gap: 10px 20px;
   grid-template-columns: 1fr 1fr;
@@ -343,6 +343,16 @@ header {
 .formulario button:hover {
   transform: scale(1.03);
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .formulario {
+    grid-template-columns: 1fr;
+  }
+
+  .formulario button {
+    margin: 0 auto;
+  }
 }
 
 /* footer */
