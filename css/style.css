@@ -354,6 +354,8 @@ header {
 @media (max-width: 600px) {
   .formulario {
     grid-template-columns: 1fr;
+    margin: 0 auto;
+    gap: 10px 0;
   }
 
   .formulario button {
