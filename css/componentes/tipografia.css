@@ -100,3 +100,46 @@
     font-size: 24px;
   }
 }
+
+@media (max-width: 350px) {
+  .font-1-p-l {
+    font-size: 18px;
+  }
+
+  span.font-1-x {
+    word-wrap: break-word;
+    max-width: 100vw;
+    text-align: left;
+  }
+  .font-1-x {
+    font-size: 24px;
+  }
+
+  .font-1-xl {
+    font-size: 24px;
+  }
+
+  .form h2 {
+    font-size: 24px;
+  }
+
+  .form span {
+    font-size: 16px;
+  }
+
+  .font-2-m {
+    font-size: 24px;
+  }
+
+  .font-1-p-m {
+    font-size: 18px;
+  }
+
+  .font-2-p {
+    font-size: 16px;
+  }
+
+  .form label {
+    font-size: 18px;
+  }
+}
