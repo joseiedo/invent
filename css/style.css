@@ -209,7 +209,7 @@ header {
 }
 
 .modelos-lista li:hover {
-  transform: scale(1.03);
+  filter: brightness(1.1);
 }
 
 @media (max-width: 900px) {
@@ -314,6 +314,7 @@ header {
 .formulario input {
   font-family: "Poppins";
   width: 100%;
+  max-width: 100vw;
   background: var(--cor-6);
   color: var(--cor-1);
   border-radius: 4px;
@@ -323,7 +324,9 @@ header {
 
 .formulario textarea {
   font-family: "Poppins";
+  max-width: 100vw;
   width: 100%;
+  grid-column: 1/-1;
   background: var(--cor-6);
   color: var(--cor-1);
   border-radius: 4px;
@@ -353,13 +356,19 @@ header {
 
 @media (max-width: 600px) {
   .formulario {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    gap: 10px 0;
+    gap: 10px;
   }
 
   .formulario button {
+    width: 100%;
     margin: 0 auto;
+  }
+
+  .form.container {
+    padding: 30px;
   }
 }
 
@@ -381,6 +390,10 @@ header {
 }
 
 @media (max-width: 700px) {
+  .container {
+    max-width: 100%;
+  }
+
   .footer {
     grid-template-columns: 1fr;
     gap: 20px;
